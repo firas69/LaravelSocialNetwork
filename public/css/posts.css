@@ -1,0 +1,19 @@
+body{
+    background-color: rgba(179, 210, 255, 0.48);
+    margin: 0px;
+    padding: 0px;
+}
+article{
+    width: 50%;
+    font-family: -apple-system;
+    margin: auto ;
+    text-align: left;
+}
+article h1{
+    text-align: center;
+}
+
+article + article{
+    margin-top: 3rem;
+    border-top: 1px solid black;
+}
